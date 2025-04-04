@@ -58,6 +58,7 @@ a {
 
 img {
   display: block;
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -69,4 +70,9 @@ li {
 .wrapper {
   width: min(u.rem(1110), calc(100% - u.rem(32)));
   margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  gap: u.rem(64);
 }
