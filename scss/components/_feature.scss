@@ -42,5 +42,9 @@
     text-transform: uppercase;
     padding: u.rem(12) u.rem(32);
     justify-self: start;
+
+    &:hover {
+      background-color: var(--c-blue);
+    }
   }
 }

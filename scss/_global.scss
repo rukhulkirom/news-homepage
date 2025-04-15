@@ -54,6 +54,8 @@ h3 {
 
 a {
   text-decoration: none;
+  transition: 150ms ease-in-out;
+  transition-property: color, background-color;
 }
 
 img {
