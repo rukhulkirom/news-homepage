@@ -10,7 +10,10 @@
     }
   }
 
-  &__open {
+  &__open[aria-expanded="true"] {
+    ~ .nav__content {
+      translate: 0;
+    }
   }
 
   &__content {
