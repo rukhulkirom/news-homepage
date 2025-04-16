@@ -14,6 +14,10 @@
     ~ .nav__content {
       translate: 0;
     }
+
+    ~ .nav__overlay {
+      opacity: 0.5;
+    }
   }
 
   &__content {
@@ -41,5 +45,6 @@
     background-color: var(--c-blue);
     opacity: 0;
     transition: opacity 300ms ease-in-out;
+    pointer-events: none;
   }
 }
